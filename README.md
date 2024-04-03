@@ -1,10 +1,10 @@
 # libhosty
 
 [![made-with-Go](https://img.shields.io/badge/made%20with-Go-1f425f.svg)](http://golang.org)
-[![Go Report Card](https://goreportcard.com/badge/github.com/areYouLazy/libhosty)](https://goreportcard.com/report/github.com/areYouLazy/libhosty)
-[![Build and Test](https://github.com/areYouLazy/libhosty/actions/workflows/build-and-test.yml/badge.svg?branch=main&event=push)](https://github.com/areYouLazy/libhosty/actions/workflows/build-and-test.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/areYouLazy/libhosty)](https://goreportcard.com/report/github.com/zerogate-it/libhosty)
+[![Build and Test](https://github.com/areYouLazy/libhosty/actions/workflows/build-and-test.yml/badge.svg?branch=main&event=push)](https://github.com/zerogate-it/libhosty/actions/workflows/build-and-test.yml)
 ![gopherbadger-tag-do-not-edit](coverage_badge.png)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/areYouLazy/libhosty)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/zerogate-it/libhosty)
 
 ## Description
 
@@ -42,7 +42,7 @@ go version go1.15.6 linux/amd64
 and pull the library
 
 ```bash
-> go get github.com/areYouLazy/libhosty
+> go get github.com/zerogate-it/libhosty
 ```
 
 ## Usage
@@ -54,7 +54,7 @@ Note: This code doesn't handle errors for readability purposes, but you SHOULD!
 ```go
 package main
 
-import "github.com/areYouLazy/libhosty"
+import "github.com/zerogate-it/libhosty"
 
 func main() {
     //you can define a custom config object
