@@ -1,3 +1,3 @@
-module github.com/areYouLazy/libhosty
+module github.com/zerogate-it/libhosty
 
 go 1.16
